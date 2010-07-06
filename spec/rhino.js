@@ -1,6 +1,6 @@
 
 load('spec/support/env.js')
-Envjs('spec/fixtures/test.html')
+window.location = 'spec/fixtures/test.html'
 load('spec/support/jquery.js')
 load('lib/jspec.js')
 load('lib/jspec.xhr.js')
